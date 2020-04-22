@@ -1,2 +1,0 @@
-# JSX
-Created with CodeSandbox
