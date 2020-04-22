@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const name = "Chris";
-const currentDate = new Date();
-const year = currentDate.getFullYear();
+const customStyle = {
+  color: "red",
+  fontSize: "20px",
+  border: "1px solid black"
+};
+
+customStyle.color = "blue";
 
 ReactDOM.render(
-  <div>
-    <p>Created by {name}</p>
-    <p>Copyright {year}</p>
-  </div>,
+  <h1 style={customStyle}>Hello World!</h1>,
   document.getElementById("root")
 );
